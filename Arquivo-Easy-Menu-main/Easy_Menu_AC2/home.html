@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Easy Menu</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+</head>
+<link rel="icon" href="img/icon.ico">
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo"><a href="home.html"><img src="./img/logo.png"></a></img></div>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="cardapio.html">CARDÁPIO</a>
+            <a href="promocao.html">PROMOÇÕES</a>
+            <a href="sobre.html">QUEM SOMOS</a>
+        </nav>
+        <div class="carrinho">
+            <a href="carrinho.html" class="botao-link"><img src="./img/carrinho.png" alt="Carrinho de Compras"> CARRINHO</a>
+          </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide first">
+                <a href="cardapio.html"><img src="img/banner2.jpg" alt="Imagem 1" /></a>
+            </div>
+            <div class="slide">
+                <a href="cardapio.html"><img src="img/banner1.jpg" alt="Imagem 2" /></a>
+            </div>
+            <div class="slide">
+                <a href="promocao.html"><img src="img/banner3.jpg" alt="Imagem 3" /></a>
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+        <div class="manual-navegation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+        <footer>
+            <div class="rodape">
+                <div class="direito">© Easy Menu 2023</div>
+                <div class="logo2"><a href="home.html"><img src="./img/logo.png" width="160px" height="108px"></a></img></div>
+                <nav>
+                    <a href="cardapio.html">CARDÁPIO</a>
+                    <a href="promocao.html">PROMOÇÕES</a>
+                    <a href="sobre.html">QUEM SOMOS</a>
+                    <a href="contato.html">CONTATO</a>
+                </nav>
+                </div>
+        </footer>
+        <script src="homejs.js"></script>
+</body>
+</html>

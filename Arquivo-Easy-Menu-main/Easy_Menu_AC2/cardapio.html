@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Easy Menu</title>
+    <link rel="stylesheet" href="css/cardapio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+</head>
+<link rel="icon" href="img/icon.ico">
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo"><a href="home.html"><img src="./img/logo.png"></a></img></div>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="cardapio.html">CARDÁPIO</a>
+            <a href="promocao.html">PROMOÇÕES</a>
+            <a href="sobre.html">QUEM SOMOS</a>
+        </nav>
+        <div class="carrinho">
+            <a href="carrinho.html" class="botao-link"><img src="./img/carrinho.png" alt="Carrinho de Compras"> CARRINHO</a>
+          </div>
+        </div>
+    </header>
+        <div class="centro">Nossos produtos</div>
+        <div class="categorias">
+            <div class="menu">
+                <div class="linha">
+                    <div class="fotomenu"><a href="#lanches_bovino"><img src="./img/Carne.jpg"></img></div>
+                    <div class="bovina categ"><a href="#lanches_bovino">Lanches de carne bovína</a></div>
+                </div>
+                <div class="linha">
+                    <div class="fotomenu"><a href="frango.html"><img src="./img/Frango.jpg"></img></div>
+                    <div class="frango categ"><a href="#lanches_frango">Lanches de frango</a></div>
+                </div>
+                <div class="linha">
+                    <div class="fotomenu"><a href="porcao.html"><img src="./img/Guarnicao.jpg"></img></div>
+                    <div class="porcao categ"><a href="porcao.html">Porções</a></div>
+                </div>
+                <div class="linha">
+                    <div class="fotomenu"><a href="combos.html"><img src="./img/combos.jpg"></img></div>
+                    <div class="combos categ"><a href="combos.html">Combos</a></div>
+                </div>
+                <div class="linha">
+                    <div class="fotomenu"><a href="sobremesas.html"><img src="./img/sobremesa.jpg"></a></div>
+                    <div class="sobremesa categ"><a href="sobremesas.html">Sobremesas</a></div>
+                </div>
+                <div class="linha">
+                    <div class="fotomenu"><a href="bebidas.html"><img src="./img/bebidas.jpg"></img></div>
+                    <div class="bebidas categ"><a href="bebidas.html">Bebidas</a></div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="lanches_bovino">
+            <div class="lanches_carne">
+                <p>Lanches de carne bovína</p>
+
+                <div class="lancheprincipal">
+                <div class="linha_carne">
+                    <div class="fotomenu"><img src="./img/Carne.jpg"></img></div>
+                    <div class="nomelanche">X-Salada</div>
+                </div>
+                <div class="descricao">
+                    <h1>Um hambúrger (100% carne bovina), alface, tomate, queijo mussarela, maionese, ketchup</h1>
+                    <h2>R$ 23,99</h2>
+                </div>
+                <div class="qnt">
+                    <button class="decrease-btn">-</button>
+                    <input type="text" class="quantity" value="0">
+                    <button class="increase-btn">+</button>
+                    <button class="add-to-cart-btn" data-price="23.99" data-nome="X-Salada">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+
+                <div class="lancheprincipal">
+                    <div class="linha_carne">
+                        <div class="fotomenu"><img src="./img/Carne.jpg"></img></div>
+                        <div class="nomelanche">X-Bacon</div>
+                    </div>
+                    <div class="descricao">
+                        <h1>Um hambúrger (100% carne bovina), bacon, alface, tomate, queijo mussarela, maionese, ketchup</h1>
+                        <h2>R$ 26,99</h2>
+                    </div>
+                    <div class="qnt">
+                        <button class="decrease-btn">-</button>
+                        <input type="text" class="quantity" value="0">
+                        <button class="increase-btn">+</button>
+                        <button class="add-to-cart-btn" data-price="26.99" data-nome="X-Bacon">Adicionar ao Carrinho</button>
+                    </div>
+                    </div>
+
+                    <div class="lancheprincipal">
+                        <div class="linha_carne">
+                            <div class="fotomenu"><img src="./img/Carne.jpg"></img></div>
+                            <div class="nomelanche">X-Calabresa</div>
+                        </div>
+                        <div class="descricao">
+                            <h1>Um hambúrger (100% carne bovina), calabresa, alface, tomate, queijo mussarela, maionese, ketchup</h1>
+                            <h2>R$ 28,99</h2>
+                        </div>
+                        <div class="qnt">
+                            <button class="decrease-btn">-</button>
+                            <input type="text" class="quantity" value="0">
+                            <button class="increase-btn">+</button>
+                            <button class="add-to-cart-btn" data-price="28.99" data-nome="X-Calabresa">Adicionar ao Carrinho</button>
+                        </div>
+                        </div>
+            </div>
+        </div>
+
+        <div id="lanches_frango">
+            <div class="lanches_frango">
+                <p>Lanches de frango</p>
+
+                <div class="lancheprincipal">
+                <div class="linha_frango">
+                    <div class="fotomenu"><img src="./img/Frango.jpg"></img></div>
+                    <div class="nomelanche">Frangão</div>
+                </div>
+                <div class="descricao">
+                    <h1>Um hambúrger (100% carne bovina), alface, tomate, queijo mussarela, maionese, ketchup</h1>
+                    <h2>R$ 23,99</h2>
+                </div>
+                <div class="qnt">
+                    <button class="decrease-btn">-</button>
+                    <input type="text" class="quantity" value="0">
+                    <button class="increase-btn">+</button>
+                    <button class="add-to-cart-btn" data-price="23.99" data-nome="Frangão">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+
+                <div class="lancheprincipal">
+                    <div class="linha_frango">
+                        <div class="fotomenu"><img src="./img/Frango.jpg"></img></div>
+                        <div class="nomelanche">Frangão com Catupiry</div>
+                    </div>
+                    <div class="descricao">
+                        <h1>Um hambúrger (100% carne bovina), bacon, alface, tomate, queijo mussarela, maionese, ketchup</h1>
+                        <h2>R$ 26,99</h2>
+                    </div>
+                    <div class="qnt">
+                        <button class="decrease-btn">-</button>
+                        <input type="text" class="quantity" value="0">
+                        <button class="increase-btn">+</button>
+                        <button class="add-to-cart-btn" data-price="26.99" data-nome="Frangão com Catupiry">Adicionar ao Carrinho</button>
+                    </div>
+                    </div>
+
+                    <div class="lancheprincipal">
+                        <div class="linha_frango">
+                            <div class="fotomenu"><img src="./img/Frango.jpg"></img></div>
+                            <div class="nomelanche">Frango Crispy</div>
+                        </div>
+                        <div class="descricao">
+                            <h1>Um hambúrger (100% carne bovina), calabresa, alface, tomate, queijo mussarela, maionese, ketchup</h1>
+                            <h2>R$ 21,99</h2>
+                        </div>
+                        <div class="qnt">
+                            <button class="decrease-btn">-</button>
+                            <input type="text" class="quantity" value="0">
+                            <button class="increase-btn">+</button>
+                            <button class="add-to-cart-btn" data-price="21.99" data-nome="Frango Crispy">Adicionar ao Carrinho</button>
+                        </div>
+                        </div>
+            </div>
+        </div>
+        <div id="cart">
+            <h3>Carrinho de Compras</h3>
+            <ul id="cart-items">
+            </ul>
+            <p id="cart-total">Total: R$ 0</p>
+          </div>
+        <footer>
+            <div class="rodape">
+                <div class="direito">© Easy Menu 2023</div>
+                <div class="logo2"><a href="home.html"><img src="./img/logo.png" width="160px" height="108px"></a></img></div>
+                <nav>
+                    <a href="home.html">HOME</a>
+                    <a href="promocao.html">PROMOÇÕES</a>
+                    <a href="sobre.html">QUEM SOMOS</a>
+                    <a href="contato.html">CONTATO</a>
+                </nav>
+                </div>
+        </footer>
+        <script src="cardapio.js"></script>
+</body>
+</html>

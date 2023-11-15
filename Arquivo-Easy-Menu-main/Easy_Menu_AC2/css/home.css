@@ -1,0 +1,244 @@
+body{
+    color: black;
+    background-color: #FFF;
+    font-family: 'Mitr', sans-serif;
+    font-style: normal;
+}
+
+nav{
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 100px 10px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    left: 50px;
+    top: 25px;
+    position: relative;
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 52%;
+}
+
+header{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 187px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 15px 20px -4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img{
+    position: absolute;
+    width: 15.9%;
+    left: 38px;
+    top: 10px;
+}
+
+.slider{
+    position: absolute;
+    top: 211px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    padding-left: 0px;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.manual-navegation{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 574px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+footer{
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 11%;
+    width: 100%;
+    height: 172px;
+    left: 0px;
+    top: 783px;
+    background: #E1DFDE;
+    box-shadow: 0px 0px 21px 16px rgba(0, 0, 0, 0.25);
+}
+
+footer nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 180px 10px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    left: 85px;
+    top: 20px;
+    position: relative;
+}
+
+footer nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+footer nav a:hover::after{
+    width: 41%;
+}
+
+.logo2{
+    position: absolute;
+    width: 160px;
+    height: 108px;
+    left: 45%;
+    top: -55px;
+}
+
+.direito{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    left: 91.8%;
+    top: 146px;
+}
+
+.carrinho{
+    font-size: 24px;
+    font-family: 'Mitr', sans-serif;
+    width: 194px;
+    height: 57px;
+    background: #d9d9d9;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    cursor: pointer;
+    margin-left: 83.6%;
+    margin-top: -24px;
+}
+
+.carrinho img{
+    width: 26px;
+    display: inline;
+    align-items: center;
+
+}
+
+.carrinho:hover{
+    background-color: #e9e9e9;
+}
+
+.botao-link{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
